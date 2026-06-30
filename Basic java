@@ -1,1 +1,24 @@
+class Object2{
+static void fun1()
+	{
+	System.out.println("Fun1");
+	}
+	int x;
+	int y;
+}
 
+
+
+class Object1{
+
+public static void main(String[]args){
+System.out.println("Main Object");
+Object2 o2=new Object2();
+o2.x=21;
+o2.y=5;
+
+System.out.println(o2.x);
+System.out.println(o2.y);
+
+}
+}
