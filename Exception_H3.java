@@ -34,7 +34,7 @@ class Employee extends Company{
     } 
 }
 
-class Main {
+class Exception_H3 {
     public static void main(String[] args) {
         try{
             Employee e1=new Employee();
